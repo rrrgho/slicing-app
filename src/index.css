@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* In your global CSS file or a specific component's CSS */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.react-responsive-modal-modal {
+  background-color: rgba(0, 22,68, 0.75);
+  border: white 2px solid;
+  border-radius: 10px;
+  margin-top: 95px;
+  /* background-color: white; */
+  /* backdrop-filter: blur(10px);  */
+}
+.react-responsive-modal-closeButton{
+  display: none;
+}
+
+.customModal {
+  /* background: #b2dbbf !important; */
+  /* max-width: 500px; */
+  /* width: 100%; */
+}

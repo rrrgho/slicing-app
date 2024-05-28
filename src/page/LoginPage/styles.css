@@ -1,0 +1,11 @@
+.btn{
+    background: linear-gradient(180deg,#1AA1F4,#002345);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:hover{
+    background:  whitesmoke !important;
+    color: #002345;
+}
