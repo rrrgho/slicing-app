@@ -1,12 +1,14 @@
-import { useState } from 'react'
-import PWABadge from './PWABadge.tsx'
-import './App.css'
-import LoginPage from './page/LoginPage/index.tsx'
+import "./App.css";
+import PWABadge from "./PWABadge.tsx";
+import LinkedIn from "./page/LinkedIn/index.tsx";
+import WhatsappChats from "./page/Whatsapp/Chats/index.tsx";
 
 function App() {
   return (
     <>
-      <LoginPage />
+      <LinkedIn />
+      {/* <WhatsappChats /> */}
+      {/* <LoginPage /> */}
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={appLogo} className="logo" alt="mbca logo" />
@@ -29,7 +31,7 @@ function App() {
       </p> */}
       <PWABadge />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
